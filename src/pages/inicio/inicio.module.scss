@@ -1,0 +1,18 @@
+.primeiraSessaoInicio{
+    border: solid red;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../../assets/BannerLivro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+
+    h2{
+        color: #FFF;
+        font-size: 28px;
+        width: 20%;
+    }
+
+}
