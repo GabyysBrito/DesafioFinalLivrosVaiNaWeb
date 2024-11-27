@@ -1,5 +1,4 @@
 .primeiraSessaoInicio{
-    border: solid red;
     height: 75vh;
     width: 100%;
     background-image: url(../../assets/BannerLivro.png);
@@ -15,4 +14,43 @@
         width: 20%;
     }
 
+}
+
+.porqueDoarSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    height: 75vh;
+
+    h2{
+        width: 90%;
+        font-size: 30px;
+        color: #005695;
+    }
+
+}
+
+.cardsMotivos{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+
+    section{
+        background-color: #0157944D;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        width: 20%;
+        border-radius: 10px;
+
+        p{
+            font-size: 18px;
+            text-align: center;
+            width: 90%;
+        }
+    }
 }
