@@ -68,3 +68,26 @@ header{
     }
 
 }
+
+@media (max-width: 780px){
+    header {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .logoHeader {
+        width: 90%;
+
+        img {
+            width: 15%;
+        }
+    }
+
+    .navHeader {
+        width: 95%;
+    }
+
+    .barraDeBusca {
+        display: none;
+    }
+}
