@@ -1,6 +1,6 @@
 import logoFormularioLivro from '../../assets/logoFormularioLivro.png'
 
-import s from './QueroDoar.module.scss'
+import s from './queroDoar.module.scss'
 export default function QueroDoar(){
     return(
         <section className={s.QueroDoarSection}>
