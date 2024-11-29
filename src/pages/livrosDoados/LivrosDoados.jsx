@@ -1,4 +1,4 @@
-import livrosDoados from '../../assets/livrosDoados.png'
+import livroProtagonista from '../../assets/livroProtagonista.png'
 import s from './livrosDoados.module.scss'
 
 export default function LivrosDoados(){
@@ -8,7 +8,7 @@ export default function LivrosDoados(){
 
             <section className={s.containerCards}>
                 <section>
-                    <img src={livrosDoados} alt="Imagem do livro o Protagonista" />
+                    <img src={livroProtagonista} alt="Imagem do livro o Protagonista" />
                     
                     <div>
                         <h3>O protagonista</h3>
