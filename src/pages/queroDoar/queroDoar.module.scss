@@ -49,6 +49,26 @@ form {
     font-size: 20px;
     background-color: #005695;
     color: #fff;
-    padding-right: 6%;
+    padding: 0;
     cursor: pointer;
+}
+
+@media (max-width:780px) {
+    .QueroDoarSection{
+        height: 100vh;
+
+        p{
+            font-size: 18px;
+            text-align: center;
+            width: 70%;
+        }
+    }
+
+    form {
+        width: 90%;
+
+        h2 {
+            font-size: 20px;
+        }
+    }
 }
