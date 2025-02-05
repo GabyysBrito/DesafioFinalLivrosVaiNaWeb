@@ -16,6 +16,6 @@ Este projeto foi construído com as seguintes tecnologias:
 - 🎁 Opção para doação de livros  
 - 📚 Exibição dos livros já doados  
 
-## 📂 O projeto no ar:  
+## 🌐 Veja o projeto no ar  
 
-- https://desafio-final-livros-vai-na-web.vercel.app/
+- 🔗Acesse o projeto aqui: [Livros Vai na Web](https://desafio-final-livros-vai-na-web.vercel.app/).
