@@ -1,8 +1,21 @@
-# React + Vite
+# 📚 Livros Vai na Web - Incentivando a Leitura  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido durante o curso **Vai na Web** com o objetivo de destacar a importância da leitura e incentivar a doação de livros. A página permite que os usuários conheçam mais sobre o impacto da leitura, descubram como podem doar e visualizem os livros que já foram doados.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi construído com as seguintes tecnologias:  
+
+- **HTML** - Estrutura da página  
+- **SASS (SCSS)** - Estilização otimizada e modular  
+- **React** - Interatividade e dinamismo da aplicação  
+
+## 💡 Funcionalidades  
+
+- 📖 Explicação sobre a importância da leitura  
+- 🎁 Opção para doação de livros  
+- 📚 Exibição dos livros já doados  
+
+## 🌐 Veja o projeto no ar  
+
+- 🔗Acesse o projeto aqui: [Livros Vai na Web](https://desafio-final-livros-vai-na-web.vercel.app/).
