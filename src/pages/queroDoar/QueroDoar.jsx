@@ -50,10 +50,11 @@ export default function QueroDoar(){
                     <h2>Informações do Livro</h2>
                 </div>
 
-                <input type="text" id="" placeholder='Título' onChange={capturaTitulo} />
-                <input type="text" id="" placeholder='Categoria' onChange={capturaCategoria}/>
-                <input type="text" id="" placeholder='Autor' onChange={capturaAutor}/>
-                <input type="text" id="" placeholder='Link da Imagem' onChange={capturaImage}/>
+                <input type="text" id="" placeholder='Título' onChange={capturaTitulo} required />
+                <input type="text" id="" placeholder='Categoria' onChange={capturaCategoria} required/>
+                <input type="text" id="" placeholder='Autor' onChange={capturaAutor} required/>
+                <input type="text" id="" placeholder='Link da Imagem' onChange={capturaImage} required/>
+                
                 <input type="submit" value="Doar" className={s.buttonDoar} onClick={enviarDados} />
             </form>
         </section>
