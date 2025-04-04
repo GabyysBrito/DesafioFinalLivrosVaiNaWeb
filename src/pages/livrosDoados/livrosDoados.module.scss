@@ -21,16 +21,21 @@
         border: solid 3px #005695;
         border-radius: 20px;
         width: 18%;
-        height: 40vh;
+        height: 52vh;
 
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-direction: column;
 
-        div {
-            text-align: center;
-        }
+    }
+}
+
+.livros {
+    text-align: center;
+
+    img {
+        width: 55%;
     }
 }
 

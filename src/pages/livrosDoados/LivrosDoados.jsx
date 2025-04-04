@@ -26,7 +26,7 @@ export default function LivrosDoados(){
                             livros.map((item) => 
                                 (
                                     <section className= {s.secao}>
-                                        <div>
+                                        <div className={s.livros}>
                                             <h3>{item.titulo}</h3>
                                             <h3>{item.categoria}</h3>
                                             <h3>{item.autor}</h3>
