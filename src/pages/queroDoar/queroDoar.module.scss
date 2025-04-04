@@ -47,10 +47,18 @@ form {
     width: 45%;
     height: 8vh;
     font-size: 20px;
-    background-color: #005695;
+    background-color: #015fa1;
     color: #fff;
     padding: 0;
     cursor: pointer;
+}
+
+.mensagem {
+    margin-top: "1rem";
+    color: #005695;
+    padding: "10px";
+    border-radius: "8px";
+    text-align: "center";
 }
 
 @media (max-width:780px) {
@@ -75,4 +83,5 @@ form {
     .buttonDoar{
         width: 45vw;
     }
+
 }

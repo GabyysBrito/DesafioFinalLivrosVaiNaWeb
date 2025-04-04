@@ -10,6 +10,7 @@ export default function QueroDoar(){
     const [categoria, setCategoria] = useState("")
     const [autor, setAutor] = useState("")
     const [image_url, setImage_url] = useState("")
+    const [mensagem, setMensagem] = useState("")
 
     const capturaTitulo = (e) => {
         setTitulo(e.target.value)
@@ -38,6 +39,16 @@ export default function QueroDoar(){
 
         await axios.post("https://apilivrosvainaweb.onrender.com/doar", dadosPEnviar)
 
+        setMensagem("Livro enviado com sucesso")
+
+        setTitulo("")
+        setCategoria("")
+        setAutor("")
+        setImage_url("")
+
+        setTimeout(() => {
+            setMensagem("")
+        }, 3000)
     }
 
     return(
@@ -50,13 +61,17 @@ export default function QueroDoar(){
                     <h2>Informações do Livro</h2>
                 </div>
 
-                <input type="text" id="" placeholder='Título' onChange={capturaTitulo} required />
-                <input type="text" id="" placeholder='Categoria' onChange={capturaCategoria} required/>
-                <input type="text" id="" placeholder='Autor' onChange={capturaAutor} required/>
-                <input type="text" id="" placeholder='Link da Imagem' onChange={capturaImage} required/>
+                <input type="text" value={titulo} placeholder='Título' onChange={capturaTitulo} required />
+                <input type="text" value={categoria} placeholder='Categoria' onChange={capturaCategoria} required/>
+                <input type="text" value={autor} placeholder='Autor' onChange={capturaAutor} required/>
+                <input type="text" value={image_url} placeholder='Link da Imagem' onChange={capturaImage} required/>
                 
                 <input type="submit" value="Doar" className={s.buttonDoar} onClick={enviarDados} />
             </form>
+
+            {mensagem && (
+                <p className={s.mensagem}>{mensagem}</p>
+            )}
         </section>
     )
 }
