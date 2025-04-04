@@ -1,10 +1,8 @@
 .livrosDoadosSection{
-    height: 70vh;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
     h2 {
         font-size: 32px;
@@ -13,10 +11,11 @@
 
 .containerCards{
     width: 95%;
-    height: 60vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
 
     .secao{
         border: solid 3px #005695;
@@ -26,7 +25,7 @@
 
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
         flex-direction: column;
 
         div {
